@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+li{
+    display: inline;
+    font-size: 25px;
+    margin-top: 10px;
+    
+}
+ul{
+    margin-left: 80px;
+}
+#head1{
+    margin-right: 320px;
+    margin-left: 550px;
+}
+#head2{
+    margin-left: 200px;
+}
+#pic{
+    width: 40px;
+}
+.pagination{
+    display: inline-block; 
+    justify-content: center;
+    padding-top: 20px; 
+    padding-bottom: 10px; 
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a:hover{
+    background-color: black;
+    color: white;
+}
+.container>h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.container1,h2,h3{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.container1 p{
+    padding: 10px 70px;
+}
+.img2{
+    display: flex;
+    margin-left: 20px;
+    gap: 10px;
+}
+#blog1 {
+    display: flex;
+}
+#blog1>p{
+    margin-left: 20px;
+}
+.chip{
+    background-color:grey;
+    padding:3px 15px;
+    border-radius: 5px;
+    margin:0px 5px;
+    font-size: smaller;
+    color: white;
+}
